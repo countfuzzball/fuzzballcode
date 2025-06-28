@@ -1,0 +1,8 @@
+View videos:
+
+mpv --no-config --vo=tct <videofile>
+
+View images:
+caca-utils (provides cacaview and img2txt)
+catimg
+chafa (auto resizing of image to terminal size)

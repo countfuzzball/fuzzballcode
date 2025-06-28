@@ -1,0 +1,11 @@
+VNC's desktop and the local desktop are not necessarily loading the same thing from the
+user's POV.
+
+Vnc uses a startup file located in /etc/vnc/xstartup. This can be overwritten
+by creating a file called /etc/vnc/xstartup.custom. 
+
+To prevent /etc/alternatives/x-session-manager being called, we can just simply
+add our window manager command + startup commands into $HOME/.xsession.
+
+vncserver -Authentication VncAuth
+^ for using with xtightvncviewer client

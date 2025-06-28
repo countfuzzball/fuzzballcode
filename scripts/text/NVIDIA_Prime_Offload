@@ -1,0 +1,4 @@
+#To get applications to run on the NVIDIA GPU use the following.
+#replace %command% with command, or put the entire string into the launch
+#options on steam
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia %command%

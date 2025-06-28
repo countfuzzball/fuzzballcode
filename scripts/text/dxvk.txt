@@ -1,0 +1,3 @@
+ Conflicting drivers
+
+If you've got DxvkSurface::createSurface: Surface not supported by device and messages about both Intel HD graphics and your dedicated graphics card in the dxgi log, your integrated graphics drivers might be causing issues. Run your game with VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.x86_64.json for AMD 64 bit or with VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json for nvidia.

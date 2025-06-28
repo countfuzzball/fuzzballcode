@@ -1,0 +1,11 @@
+proc            /proc           proc    defaults          0       0
+PARTUUID=14a33706-01  /boot           vfat    defaults,ro          0       2
+PARTUUID=14a33706-02  /               ext4    defaults,noatime  0       1
+# a swapfile is not a swap partition, no line here
+#   use  dphys-swapfile swap[on|off]  for that
+
+tmpfs                 /tmp            tmpfs     defaults 0 0
+
+
+#UUID=655a081d-13d5-4111-add5-8cdf9ab8bae6 /mnt xfs defaults,auto,users,rw,nofail 0 0
+#UUID=e499540f-8dfe-454c-8aa6-bb3ed0415624 /root/bk/xfsDisk3 xfs defaults,auto,users,rw,nofail 0 0

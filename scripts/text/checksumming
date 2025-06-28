@@ -1,0 +1,27 @@
+
+User avatar
+level 1
+kannibalox
+·
+4y
+
+On linux:
+
+find <directory> -type f -exec md5sum {} + > ~/md5.txt
+
+To verify:
+
+ md5sum -c ~/md5.txt
+
+To find only failed files:
+
+ md5sum -c ~/md5.txt | grep FAILED
+
+I don't know exactly how Unraid operates, but if these errors are being detected from parity, the check probably auto-restores the correct data.
+
+
+--
+
+To exclude a directory:
+find <directory> -not -path "./path/to/exclude/*" -type f -exec md5sum {} + > ~/md5.txt
+

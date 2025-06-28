@@ -1,0 +1,27 @@
+173
+
+The user configuration (in ~/.gnupg/gpg-agent.conf) can only define the default and maximum caching duration; it can't be disabled.
+
+The default-cache-ttl option sets the timeout (in seconds) after the last GnuPG activity (so it resets if you use it), the max-cache-ttl option set the timespan (in seconds) it caches after entering your password. The default value is 600 seconds (10 minutes) for default-cache-ttl and 7200 seconds (2 hours) for max-cache-ttl.
+
+Set it to a year or so – say, 34560000 seconds (400 days) – and you should be fine:
+
+GnuPG 2.1 and above
+In GnuPG 2.1 and above, the maximum-cache-ttl option was renamed to max-cache-ttl without further changes.
+
+default-cache-ttl 34560000
+max-cache-ttl 34560000
+
+GnuPG 2 and below
+default-cache-ttl 34560000
+maximum-cache-ttl 34560000
+
+
+Restart the agent
+But for this change to take effect, you need to end the session by restarting gpg-agent.
+
+gpgconf --kill gpg-agent
+gpg-agent --daemon --use-standard-socket
+If you want to limit to your session length, you'd need to kill the daemon at logout. This is very different between operating systems, so I'm referring to another question/answer containing hints for different systems.
+
+You could also restart the gpg-agent during login, but this does not limit caching time to the session length, but logins of a user. Decide yourself if this is a problem in your case.
