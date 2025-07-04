@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>06/08/2024</time>
+<br>
+          <section class="blog">
+                <hr>
+                <article id="post1" class="blog-post">
+            <h4>Why this list?</h4>
+            <p>I'm curating the following page so I can keep track of which Horus Heresy audiobooks I've listened to. Because quite frankly, there <b>IS</b> a lot of them! We're talking a 60 plus book series here. And that's not including the 8 or so books in the "Siege Of Terra" series.</p>
+
+        </section>
+
+        <section id="post2-section2" class="section">
+            <h4>The glorified list and my thoughts:</h4>
+            <p><h3>The list <a href="/blog/wh40khh.shtml">is available here</a></h3></p>
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle of Bessang Pass</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>21/08/2024</time>
+<br>
+          <section class="blog">
+                <hr>
+           <h2>Battle Of Bessang Pass - March 1944 - June 1944, Phillipines.</h2>
+                <p>There's an oft-overlooked battle in the Pacific theatre of WW2 in the Phillipines called "The Battle Of Bessang Pass" during the Allied liberation of the Phillipines. This battle was something of a tug-of-war between the Filipino Guerillas and the defending Japanese. I'll be using <a href="https://wargameds.com/products/philippines-44">Panzer Campaigns Phillipines '44</a> to illustrate.</p>
+		<br>
+		<p>The Bessang Pass was part of a defensive line in the mountains off the west coast of Luzon. It led directly from the coast to the mountainous regions, and so was a key point to the integrity of the defensive line.</p>
+		<img src="/wargames/screens/bessangpass1.jpg" alt="Bessang Pass map">
+
+		<p><a href="https://wargameds.com/products/philippines-44">Phillipines '44</a> covers the 3 major parts of the battle over the 4 month period beginning with:</p>
+		<h3>Initial filipino guerilla attack - March 29th 1945</h3>
+		<img src="/wargames/screens/battlebessang1.jpg" alt="Battle Of Bessang in March">
+		<h3>Japanese counter-attack - May 17th 1945</h3>
+		<img src="/wargames/screens/battlebessang2.jpg" alt="Battle Of Bessang in May">
+		<h3>The final push to successfully secure the Bessang Pass - June 10th to June 14th 1945</h3>
+		<img src="/wargames/screens/bessangpass3.jpg" alt="Battle Of Bessang in June">
+
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+</head>
+<body>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <meta name="author" content="Andrew" >
+
+<title>RPI Site</title>
+
+</head>
+<body>
+   <!--#include virtual="/header.html" -->
+
+    <main>
+        <h1>Welcome to my site!</h1>
+
+        <!--#include virtual="/footer.html" -->
+        <hr>
+        <h5>Powered by Google Cloud.</h5>
+    </main>
+
+</body>
+</html>

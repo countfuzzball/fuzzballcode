@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wargames section plans</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>10/07/2024</time>
+<br>
+          <section class="blog">
+                <hr>
+                <article id="post1" class="blog-post">
+       <h2>Plans for the wargames section</h2>
+       
+                <p>As someone with what could reasonably called a passing interest in military history and tactics, I find myself drawn to computer-based wargames, both fictional universes, and more real-life ones. Mostly in this blog I'll be focusing on warhammer 40K videogames like <a href="https://store.steampowered.com/app/1295500/Warhammer_40000_Battlesector/">Warhammer 40k: Battlesector</a>, and the more historical accuracy focused hex-and-counter games from <a href="https://wargameds.com/">Wargame Design Studio</a></p>
+		<br>
+		<p>So expect this part of the site to have my thoughts on military history and conflicts, wargame reviews, 
+new release/patch announcements, and action reports from the (virtual) battlefield!
+I'll be including links to seperate pages for each.</p>
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

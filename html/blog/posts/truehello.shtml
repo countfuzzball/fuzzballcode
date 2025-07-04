@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>08/08/2024</time>
+<br>
+          <section class="blog">
+                <hr>
+            <h2>So, a true "hello world!"</h2>
+                <article id="post1" class="blog-post">
+          <p>So this is my first proper post on this website after getting all the bits and pieces set up. What is this website and how does it work?</p>
+
+		<p>I'm running the website using debian linux and apache2 web server running on a Google Cloud VM instance. I'm using <a href="https://no-ip.com">no-ip.com's services</a> to get a domain name (fuzzballnews.servequake.com), and then using <a href="https://letsencrypt.com">LetsEncrypt's services</a> to generate a signed HTTPS certificate so HTTPS works.</p>
+
+		<p>Now.. yes, HTTPS is a rather redundant thing because the website just serves out simple static webpages, and no sensitive user information passes from the web server to the user or vice versa. But in the modern age 			nowadays, I think HTTPS should be mandatory.</p>
+		<p>Other cool stuff about the website? It uses some very basic HTML5 reactivity tags so that the site will <i>generally</i> format nicely on mobile devices. I also used ChatGPT to help with server/dyndns configuration 		and with getting the layout correct and nice looking.</p>
+		<p>It's early days yet, but I hope to make good use of this set up to share my interests, thoughts, and hobbies!</p>
+
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>
