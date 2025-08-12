@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer 40K</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+<time>Updated: 23/06/2025</time>
+
+        <section class="bio">
+ <p>In the grim darkness of the far future, there is only war.</p>
+        </section>
+<br>
+<br>
+        <nav class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ol>
+                <li><a href="posts/.shtml">Time to refactor the website</a></li>
+                <li><a href="posts/bluefish.shtml">Things I'll need to figure out</a></li>
+                <li><a href="posts/.shtml">Time to refactor the website</a></li>
+            </ol>
+        </nav>
+    <!--#include virtual="/footer.html" -->
+
+    </div>
+</body>
+</html>

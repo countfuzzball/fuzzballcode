@@ -18,6 +18,7 @@
         <nav class="table-of-contents">
             <h3>Table of Contents</h3>
             <ol>
+		<li><a href="posts/kanboard.shtml">How I'm using Kanboard - 11/07/2025</a></li>
 		<li><a href="posts/backagain.shtml">Testing.. testing.. we are back! - 20/06/2025</a></li>
 		<li><a href="posts/truehello.shtml">So a true "hello world!" - 08/08/2024</a></li>
                 <li><a href="posts/HH.shtml">Horus Heresy Audiobooks list - 06/08/2024</a></li>

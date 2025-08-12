@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videogame fun!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="../header.html" -->
+
+<main>
+    <div class="container">
+        <header>
+            <h1>The vidya games page!</h1>
+        </header>
+<header>
+<h3>Last updated: 29/08/2024</h3>
+<br>
+
+        <section class="bio">
+ <p>New releases, old release, and my thoughts on it all!</p>
+        </section>
+</header>
+<br>
+        <nav class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ol>
+                <li><a href="#post1">Space Marine 2 Battleplan released!</a></li>
+            </ol>
+        </nav>
+        <section class="blog">
+<hr>
+            <article id="post1" class="blog-post">
+                <h2>Space Marine 2 Battleplan released!</h2>
+              <section id="post1-section1">
+                <p>Saber Interactive have released the roadmap for Warhammer 40,000 Space Marine 2. The roadmap consists of 4 seasons over the course of a year, starting from September 2024 to August 2025. Features include additional PVE missions and PVP arenas. Including new missions, a new weapon, and new enemies!</p>
+		<img src="/videogames/screens/battleplan.jpg"/>
+              </section>
+            </article>
+<hr>
+        </section>
+
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnus did nothing wrong?.</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>20/09/2025</time>
+<br>
+          <section class="blog">
+                <hr>
+                <article id="post1" class="blog-post">
+              <h2>My new-found favourite chapter: The Tome Keepers.</h2>
+        
+          <p>Thanks to Space Marine 2, I discovered a loyalist space marine chapter that seems right up my alley in many ways: The Tome Keepers!</p> 
+
+<p>They're the custom chapter of Games Workshop's "White Dwarf" magazine and they're suitably wholesome. 
+Their whole deal is that they're descended from the Ultramarines and keep meticulous documentation of their foes and battles so as they learn and preserve knowledge, while also valuing human life too, similar to the Salamanders. 
+</p>
+
+<p>They also carry a blank book with them that they fill with details about people they meet, things they see or research in their day-to-day life and have a tradition of passing the book on to others in their chapter when they die, or giving it to humans on their homeworld.
+Funnily enough, they have a strong distrust of both the Black Templars and Sisters Of Battle due to both of their sheer fanaticism and zealous nature. 
+</p>
+
+<p>I still love the fanatical Sisters though! Purge in holy fire the heretic, the xeno, the mutant! </p>
+<p>Here are are some screenshots of these bookish fellas!</p>
+<p><img src="/warhammer40k/tome/2183900_1870.jpg" alt="">
+<img src="warhammer40k/tome/2183900_1882.jpg" alt="">
+<img src="warhammer40k/tome/2183900_1883.jpg" alt="">
+</p>    
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>
