@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="header.html" -->
+ <main>
+    <div class="container">
+        <header>
+            <h1>Welcome to Andrew's corner of the internet.</h1>
+        </header>
+
+        <section class="under-construction">
+            <h2>Under Construction</h2>
+            <p>This page is currently under construction. Please check back later for updates!</p>
+        </section>
+
+    <!--#include virtual="footer.html" -->
+    </div>
+ </main>
+</body>
+</html>

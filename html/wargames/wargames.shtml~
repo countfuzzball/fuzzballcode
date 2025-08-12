@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The wargaming table</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+ <main>
+    <div class="container">
+        <header>
+            <h1>All things virtual wargaming!</h1>
+        </header>
+<header>
+<h3>Last updated: 23/06/2025</h3>
+<br>
+
+        <section class="bio">
+ <p>Let me see your war-face!</p>
+        </section>
+</header>
+<br>l
+        <nav class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ol>
+                <li><a href="posts/bessangpass.shtml">Battle Of Bessang Pass - March 1944 - June 1944, Phillipines.</a></li>
+                <li><a href="posts/plans.shtml">Plans for this page</a></li>
+            </ol>
+        </nav>
+      
+	    <!--#include virtual="/footer.html" -->
+
+    </div>
+ </main>
+</body>
+</html>

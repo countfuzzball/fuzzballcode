@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videogame fun!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="../header.html" -->
+
+<main>
+    <div class="container">
+<header>
+<h3>Last updated: 29/08/2024</h3>
+<br>
+
+        <section class="bio">
+ <p>New releases, old releases, and what I think!</p>
+        </section>
+</header>
+<br>
+        <nav class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ol>
+                <li><a href="posts/sm2bp.shtml">Space Marine 2 Battleplan released!</a></li>
+            </ol>
+        </nav>
+     
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

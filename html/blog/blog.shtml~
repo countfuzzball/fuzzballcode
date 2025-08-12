@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew's blog</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+        <header>
+            <h1>Welcome to Andrew's corner of the internet.</h1>
+        </header>
+
+        <nav class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ol>
+		<li><a href="#post5">Testing.. testing.. we are back! - 20/06/2025</a></li>
+		<li><a href="#post4">New navbar update - 16/08/2024</a></li>
+		<li><a href="#post3">So a true "hello world!" - 08/08/2024</a></li>
+                <li><a href="#post2">Horus Heresy Audiobooks list - 06/08/2024</a></li>
+                <li><a href="#post1">Hello world! - 26/05/2024</a></li>
+            </ol>
+        </nav>
+        <section class="blog">
+<hr>
+            <article id="post4" class="blog-post">
+                <h2>Testing.. testing.. we are back!</h2>
+                <h3>20/06/2025</h3>
+              <section id="post1-section1">
+                <p>After letting my free no-ip domain name expire 2 months ago (because I keep forgetting to renew it), i finally got around to renewing it, so fuzzballnews.servequake.com is back again. <br><br> Considering this, I may look into purchasing a subscription to no-ip for automatic domain registration, but we'll see. I'll also try and update the website more often from now on. </p>
+            <p><a href="#top">Back to top</a></p>
+              </section>
+            </article>
+
+<hr>
+             <article id="post3" class="blog-post">
+                <h2>So, a true "hello world!"</h2>
+                <h3>08/08/2024</h3>
+              <section id="post1-section1">
+                <p>So this is my first proper post on this website after getting all the bits and pieces set up. What is this website and how does it work?</p>
+
+		<p>I'm running the website using debian linux and apache2 web server running on a Google Cloud VM instance. I'm using <a href="https://no-ip.com">no-ip.com's services</a> to get a domain name (fuzzballnews.servequake.com), and then using <a href="https://letsencrypt.com">LetsEncrypt's services</a> to generate a signed HTTPS certificate so HTTPS works.</p>
+
+		<p>Now.. yes, HTTPS is a rather redundant thing because the website just serves out simple static webpages, and no sensitive user information passes from the web server to the user or vice versa. But in the modern age 			nowadays, I think HTTPS should be mandatory.</p>
+		<p>Other cool stuff about the website? It uses some very basic HTML5 reactivity tags so that the site will <i>generally</i> format nicely on mobile devices. I also used ChatGPT to help with server/dyndns configuration 		and with getting the layout correct and nice looking.</p>
+		<p>It's early days yet, but I hope to make good use of this set up to share my interests, thoughts, and hobbies!</p>
+
+            <p><a href="#top">Back to top</a></p>
+              </section>
+            </article>
+
+<hr>
+<article id="post2" class="blog-post">
+        <h2>W40K Horus Heresy audiobooks list and thoughts.</h2>
+        <h3>06/08/2024</h3>
+
+        <section id="post2-section1" class="section">
+            <h4>Why this list?</h4>
+            <p>I'm curating the following page so I can keep track of which Horus Heresy audiobooks I've listened to. Because quite frankly, there <b>IS</b> a lot of them! We're talking a 60 plus book series here. And that's not including the 8 or so books in the "Siege Of Terra" series.</p>
+
+        </section>
+
+        <section id="post2-section2" class="section">
+            <h4>The glorified list and my thoughts:</h4>
+            <p><h3>The list <a href="/blog/wh40khh.shtml">is available here</a></h3></p>
+            <p><a href="#top">Back to top</a></p>
+        </section>
+    </article>
+
+<hr>
+
+            <article id="post1" class="blog-post">
+                <h2>Hello world!</h2>
+                <h3>26/05/2024</h3>
+              <section id="post1-section1">
+                <p>Decided I'll actually start using this website to host my own online journal of all things Warhammer 40k games/books/lore, with a focus on keeping track of the audiobooks I've read, and any other odds and ends that interest me.</p>
+            <p><a href="#top">Back to top</a></p>
+              </section>
+            </article>
+<hr>
+        </section>
+
+        <footer>
+            <p>&copy; 2024. Website layout generated in part by <a href="https://openai.com">CHATGPT</a></p>
+        </footer>
+    </div>
+</main>
+</body>
+</html>

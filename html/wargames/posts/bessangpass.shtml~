@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The wargaming table</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="../header.html" -->
+ <div class="header-content-offset">
+    <div class="container">
+        <header>
+            <h1>All things virtual wargaming!</h1>
+        </header>
+<header>
+<h3>Last updated: 21/08/2024</h3>
+<br>
+
+        <section class="bio">
+ <p>Let me see your war-face!</p>
+        </section>
+</header>
+<br>
+        <nav class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ol>
+                <li><a href="#post2">Battle Of Bessang Pass - March 1944 - June 1944, Phillipines.</a></li>
+                <li><a href="#post1">Plans for this page</a></li>
+            </ol>
+        </nav>
+        <section class="blog">
+<hr>
+            <article id="post2" class="blog-post">
+                <h2>Battle Of Bessang Pass - March 1944 - June 1944, Phillipines.</h2>
+              <section id="post1-section1">
+                <p>There's an oft-overlooked battle in the Pacific theatre of WW2 in the Phillipines called "The Battle Of Bessang Pass" during the Allied liberation of the Phillipines. This battle was something of a tug-of-war between the Filipino Guerillas and the defending Japanese. I'll be using <a href="https://wargameds.com/products/philippines-44">Panzer Campaigns Phillipines '44</a> to illustrate.</p>
+		<br>
+		<p>The Bessang Pass was part of a defensive line in the mountains off the west coast of Luzon. It led directly from the coast to the mountainous regions, and so was a key point to the integrity of the defensive line.</p>
+		<img src="/wargames/screens/bessangpass1.jpg" alt="Bessang Pass map">
+
+		<p><a href="https://wargameds.com/products/philippines-44">Phillipines '44</a> covers the 3 major parts of the battle over the 4 month period beginning with:</p>
+		<h3>Initial filipino guerilla attack - March 29th 1945</h3>
+		<img src="/wargames/screens/battlebessang1.jpg" alt="Battle Of Bessang in March">
+		<h3>Japanese counter-attack - May 17th 1945</h3>
+		<img src="/wargames/screens/battlebessang2.jpg" alt="Battle Of Bessang in May">
+		<h3>The final push to successfully secure the Bessang Pass - June 10th to June 14th 1945</h3>
+		<img src="/wargames/screens/bessangpass3.jpg" alt="Battle Of Bessang in June">
+
+              </section>
+            </article>
+<hr>
+            <article id="post1" class="blog-post">
+                <h2>Plans for this page</h2>
+              <section id="post1-section1">
+                <p>As someone with what could reasonably called a passing interest in military history and tactics, I find myself drawn to computer-based wargames, both fictional universes, and more real-life ones. Mostly in this blog I'll be focusing on warhammer 40K videogames like <a href="https://store.steampowered.com/app/1295500/Warhammer_40000_Battlesector/">Warhammer 40k: Battlesector</a>, and the more historical accuracy focused hex-and-counter games from <a href="https://wargameds.com/">Wargame Design Studio</a></p>
+		<br>
+		<p>So expect this page to have my thoughts on military history and conflicts, wargame reviews, 
+new release/patch announcements, and action reports from the (virtual) battlefield!
+I'll be including links to seperate pages for each.</p>
+              </section>
+            </article>
+<hr>
+        </section>
+
+        <footer>
+            <p>&copy; 2024. Website layout generated in part by <a href="https://openai.com">CHATGPT</a></p>
+        </footer>
+    </div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+25 8	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 8	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 8	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+#
+
+#Andrew's cronjobs
+#55 21   * * *   root    /sbin/shutdown -h now
+
+#00 16   * * *   root    /bin/bash /mnt/Remote/scripts_linux/rsync.sh daily
+
+00 17   * * mon pi /bin/bash /mnt/Remote/scripts_linux/rsync.sh weekly
+
+*/2 * * * * pi /bin/bash /mnt/Local/scripts/localscript1.sh 2> /dev/null
+
+#55 08   * * *   root    python3 /mnt/Remote/Server_Stuff/discordbot.py
+
+#*/5 * * * * root /mnt/Local/scripts/pyweb.sh
+
+#*/60 * * * * root /bin/bash /mnt/Local/scripts/wifi_reboot.sh
+#*/35 * * * * root /mnt/Local/scripts/localscript2.sh
+
+#*/10 * * * * root /bin/bash /mnt/Remote/Apache/www/me/makerpistats.sh
+
+#*/5 * * * * root /bin/bash /mnt/Local/scripts/wifi_reboot.sh
+
+#*/15 * * * * pi /bin/bash /mnt/Local/scripts/sshtunnel.sh
+
+#00 10  * * mon pi /bin/bash /mnt/Local/scripts/tldpmirror.sh mon
+#00 10  * * wed pi /bin/bash /mnt/Local/scripts/tldpmirror.sh wed
+#00 10  * * fri pi /bin/bash /mnt/Local/scripts/tldpmirror.sh fi
+#35 14  * * * pi cd /mnt/Remote/Mods\ For\ Games/ && git clone https://github.com/AdamJCavanaugh/EndlessATCAirports.git

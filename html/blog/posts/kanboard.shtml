@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I'm using Kanboard.</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>11/07/2025</time>
+<br>
+          <section class="blog">
+                <hr>
+                <article id="post1" class="blog-post">
+                <h2>How I'm using Kanboard.</h2>
+              <section id="post1-section1">
+                <p>Kanboard is a docker container for project management  which utilises the "Kanban" project management system developed by the car manufacturer Toyota. 
+
+It aims to have a visual "flow" of work from beginning to completion in order limit the amount of concurrent work-in-progress and present it visually. </p>
+
+<p>Obviously you can use this for anything from maintaining software tasks that need to be done, or organising daily or weekly tasks. Me? I'm using it to track games i'm playing and
+have beaten and TV Show and movies I want to watch. Why? Mostly because for me, it's nice to create lists of these kinds of things and be able to see a visual increase in the "completed work", or in this case, games completed and media watched! </p>
+
+<p>Below are screenshots of my current Kanboard.</p>
+
+<p>I've divided it into 3 columns (or "swimlanes" as Kanboard calls them) for my TV/movies:
+
+<ol>
+ <li>Backlog - What I want to watch</li>
+ <li>Watching - What I'm watching or will be watching very soon (in 3 days or less)</li>
+ <li>Finished - What I've finished watching</li>
+</ol>
+<br>
+
+
+<img src="/blog/screens/kanboard1.jpg" />
+<br>
+<img src="/blog/screens/kanboard2.jpg" />
+<br>
+<img src="/blog/screens/kanboard3.jpg" />
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

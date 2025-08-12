@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Usage:
+#   ./encrypt_script.sh [--symmetric]
+# If --symmetric is provided, symmetric encryption will be used with the keyfile at /tmp/keyfile.
+
+SYMMETRIC=false
+KEYFILE="/tmp/keyfile"
+
+# Check if the script is called with the --symmetric argument
+if [[ "$1" == "--symmetric" ]]; then
+    SYMMETRIC=true
+fi
+
+for i in *.tar; do
+    if [[ "$SYMMETRIC" == true ]]; then
+        gpg --batch --yes --compress-algo none --cipher-algo AES256 --passphrase-file "$KEYFILE" -o "${i%.tar}.gpg" --symmetric "$i"
+    else
+        gpg --batch --yes --compress-algo none --cipher-algo AES256 -r anon --trust-model always -o "${i%.tar}.gpg" -e "$i"
+    fi
+done

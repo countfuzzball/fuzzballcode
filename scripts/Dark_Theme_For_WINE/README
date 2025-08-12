@@ -1,0 +1,3 @@
+run wine regedit
+import the registry keys
+restart your wine application

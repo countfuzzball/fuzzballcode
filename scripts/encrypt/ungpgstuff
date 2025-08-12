@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Usage:
+#   ./ungpgstuff.sh [--symmetric]
+# If --symmetric is provided, symmetric decryption will be used with the keyfile at /tmp/keyfile.
+
+SYMMETRIC=false
+KEYFILE="/tmp/keyfile"
+
+# Check if the script is called with the --symmetric argument
+if [[ "$1" == "--symmetric" ]]; then
+    SYMMETRIC=true
+fi
+
+for i in *.gpg; do
+    SIZE=$(du -m "$i" | cut -f1)
+    echo "'$i' size is $SIZE MB"
+    echo " "
+    START_TIME_DECRYPT=$(date +%s.%N)
+    
+    if [[ "$SYMMETRIC" == true ]]; then
+        pv "$i" | gpg --batch --yes --passphrase-file "$KEYFILE" -d -o "$(basename "$i" .gpg).tar"
+    else
+        pv "$i" | gpg -d -o "$(basename "$i" .gpg).tar"
+    fi
+    
+    END_TIME_DECRYPT=$(date +%s.%N)
+
+    # Calculate elapsed time and throughput
+    ELAPSED_TIME=$(echo "$END_TIME_DECRYPT - $START_TIME_DECRYPT" | bc)
+    THROUGHPUT=$(echo "scale=2; $SIZE / $ELAPSED_TIME" | bc)
+
+    echo "--- Decryption throughput: $THROUGHPUT MB/s ---"
+    echo " "
+
+    echo extracting....
+    rm "$i"
+    tar -xf "$(basename "$i" .gpg).tar"
+done

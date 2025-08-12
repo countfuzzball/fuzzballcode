@@ -1,0 +1,187 @@
+img {
+      max-width: 100%;
+      height: auto;
+}
+/* Main content offset to accommodate sidebar */
+/*
+.header-content-offset {
+    margin-left: 40px;
+    padding: 220px;
+    /*display: flex; */
+}*/
+
+/* New main content wrapper */
+main {
+    margin-left: 200px; /* match sidebar width */
+    padding: 20px;
+}
+
+/* Global link styles */
+a {
+    color: red;
+    text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+    color: lightblue;
+}
+
+/* Styles specific to header links */
+.header-nav ul li a {
+    color: red;
+}
+
+.header-nav ul li a:hover {
+    color: lightblue;
+}
+
+/* Body styling */
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+/*    display: flex;*/
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #0f0;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Flex order adjustments */
+.left-align {
+    order: -1;
+}
+
+.right-align {
+    order: 1;
+}
+
+/* Paragraph adjustments */
+.container p {
+    flex: 1 1 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.container img.left-align + p,
+.container img.right-align + p {
+    flex: 1 1 calc(100% - 120px); /* Adjust based on image width + gap */
+}
+
+/* Bio section styling */
+.bio {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #0f0;
+    padding-bottom: 20px;
+}
+
+/* Blog post styling */
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-post h4 {
+    color: #FFFF00;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #0f0;
+    padding-top: 20px;
+}
+
+/* Header-specific styling */
+.header-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #000000;
+    padding-top: 0px; /* Adjust if needed */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.header-nav {
+    display: block;
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav ul li {
+    margin: 20px 0;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #00FF00;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.header-nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Mobile responsiveness for the sidebar and main content */
+@media only screen and (max-width: 600px) {
+    /* Reduce sidebar width */
+    .header-sidebar {
+        width: 150px;
+        padding-top: 10px;
+    }
+
+    /* Adjust main content to fit next to sidebar */
+    .header-content-offset {
+        margin-left: 160px; /* Match to sidebar width */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header-sidebar {
+        width: 120px; /* Smaller sidebar */
+    }
+
+    .header-content-offset {
+        margin-left: 130px; /* Adjust to fit new sidebar width */
+        padding: 10px;
+    }
+
+    /* Make sure images and content don't overflow */
+    .container img {
+        max-width: 100%; /* Ensure images resize properly */
+    }
+
+    /* Adjust flex properties */
+    .container {
+        flex-direction: column; /* Stack content vertically if needed */
+        padding: 10px;
+    }
+}

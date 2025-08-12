@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excerpt: Transhuman dread.</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>23/07/2024</time>
+<br>
+          <section class="blog">
+                <hr>
+                <article id="post1" class="blog-post">
+      <h2>Excerpt: Transhuman dread.</h2>
+             
+                <p>I was listening to the Age of Darkness anthology and came across this excellent description of "transhuman dread", the effect the sight of a space marine has on a normal human: </p>
+		<br>
+		<p>"Transhuman dread. Aximand had heard iterators talk of the condition. He’d heard descriptions of it from regular Army officers too. The sight of an Adeptus Astartes was one thing: taller and broader than a man could ever be, armoured like a demigod. The singularity of purpose was self-evident. An Adeptus Astartes was designed to fight and kill anything that didn’t annihilate it first. If you saw an Adeptus Astartes, you knew you were in trouble. The appearance alone cowed you with fear.</p>
+		<br>
+		<p>"But to see one move. Apparently that was the real thing. Nothing human-shaped should be so fast, so lithe, so powerful, especially not anything in excess of two metres tall and carrying more armour than four normal men could lift. The sight of an Adeptus Astartes was one thing, but the moving fact of one was quite another. The psychologists called it transhuman dread. It froze a man, stuck him to the ground, caused his mind to lock up, made him lose control of bladder and bowel. Something huge and warlike gave pause: something huge and warlike and moving with the speed of a striking snake, that was when you knew that gods moved amongst men, and that there existed a scale of strength and speed beyond anything mortal, and that you were about to die and, if you were really lucky, there might be just enough time to piss yourself first."</p>
+		<br>
+		<p>Needless to say, transhuman dread sounds bowel-evacuatingly scary!</p>
+		<br>
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>

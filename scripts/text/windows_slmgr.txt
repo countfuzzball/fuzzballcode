@@ -1,0 +1,9 @@
+slmgr /upk
+slmgr.vbs /cpky
+slmgr /ckms
+slmgr.vbs /ckms
+slmgr /skms localhost
+slmgr /ipk <key>
+slmgr /ato
+slmgr /dlv
+

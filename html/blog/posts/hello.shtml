@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--#include virtual="/header.html" -->
+
+<main>
+    <div class="container">
+
+     <time>26/05/2024</time>
+<br>
+          <section class="blog">
+                <hr>
+                <article id="post1" class="blog-post">
+                <h2>Hello world!</h2>
+              <section id="post1-section1">
+                <p>Decided I'll actually start using this website to host my own online journal of all things Warhammer 40k games/books/lore, with a focus on keeping track of the audiobooks I've read, and any other odds and ends that interest me.</p>
+                </article>
+                <hr>
+            </section>
+    <!--#include virtual="/footer.html" -->
+    </div>
+</main>
+</body>
+</html>
